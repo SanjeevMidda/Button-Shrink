@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.circle{
+    width:10vh;
+    height:10vh;
+    /* border-radius: 50%; */
+    margin: 5px;
+    transition: all 1s;
+    background-color: orange;
+}
+
+.circle:hover{
+    background-color: blue;
+    scale: 0.8;
+    /* width: 20vw;
+    height: 20vh; */
+}
+
+img{
+    transition: all 1s;
+}
+
+img:hover{
+    scale: 0.8;
+    transform: rotate(45deg);
+}
+
+h1{
+    transition: all 1s;
+}
+
+h1:hover{
+    scale: 0.8;
+    color: grey;
+}
